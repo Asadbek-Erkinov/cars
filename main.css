@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/lexenddecaregular.woff2") format("woff2"),
+  url("./fonts/lexenddecaregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/bigshouldersdisplaybold.woff2") format("woff2"),
+  url("./fonts/bigshouldersdisplaybold.woff") format("woff");
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lexend Deca", "Big Shoulders Display" "Arial", sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.hero-list {
+  width: 920px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-inline: auto;
+}
+
+.hero-title {
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47.88px;
+  color: #F2F2F2;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.hero-text {
+  font-family: "Lexend Deca";
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 83px;
+  opacity: 0.7;
+}
+
+.hero-item {
+  background-color: #E28625;
+  width: 307px;
+  padding-inline: 48px;
+  padding-block: 48px;
+  border-radius: 8px;
+}
+
+.hero-item::before {
+  display: inline-block;
+  background-image: url("./images/iconsedan.svg");
+  content: "";
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.hero-link {
+  background-color: #fff;
+  padding-block: 11px 12px;
+  padding-inline: 31px;
+  border-radius: 25px;
+  text-decoration-line: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #E28625;
+  font-family: "Lexend Deca";
+}
+
+.suv-item::before {
+  display: inline-block;
+  background-image: url("./images/iconsuv.svg");
+  content: "";
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.luxury-item::before {
+  display: inline-block;
+  background-image: url("./images/iconluxury.svg");
+  content: "";
+  width: 64px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.suv-item {
+  background-color: #006971;
+}
+
+.luxury-item {
+  background-color: #004140;
+}
+
+.hero-wrapper {
+  margin-top: 171px;
+  margin-bottom: 171px;
+}
+
+.suvs-link {
+  color: #006971;
+}
+
+.luxury-link {
+  color: #004140;
+}
+
+.suv-item {
+  position: relative;
+  right: 10px;
+}
+
+.luxury-item {
+  position: relative;
+  right: 20px;
+}
