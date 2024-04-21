@@ -14,7 +14,6 @@
   url("./fonts/bigshouldersdisplaybold.woff") format("woff");
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -33,6 +32,17 @@ img {
   width: 1240px;
   margin-inline: auto;
   padding-inline: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .hero-list {
